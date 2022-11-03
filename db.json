@@ -1,0 +1,340 @@
+{
+    "data": [
+        {
+            "id": 0,
+            "role": "Project Manager",
+            "candidates": [
+                {
+                    "id": 1,
+                    "name": "Divya",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Danish",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Farid",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 4,
+                    "name": "srilatha",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 5,
+                    "name": "dakshith",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 6,
+                    "name": "venu",
+                    "Experience": "",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "role": "HR Manager",
+            "candidates": [
+                {
+                    "id": 1,
+                    "name": "Rahul",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Raj",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Akash",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Arun",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 5,
+                    "name": "Tharun",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Sumanth",
+                    "Experience": "",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "role": "UI/UX Designer",
+            "candidates": [
+                {
+                    "id": 1,
+                    "name": "Kiran",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Akshay",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Kumar",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Swami",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 5,
+                    "name": "Arashad",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Nirmal",
+                    "Experience": "",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "role": "Front End Developers",
+            "candidates": [
+                {
+                    "id": 1,
+                    "name": "Neha",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Siri",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Karan",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Salman",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 5,
+                    "name": "Murali",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Vani",
+                    "Experience": "",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "role": "Back End Developers",
+            "candidates": [
+                {
+                    "id": 1,
+                    "name": "Jaya",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 2,
+                    "name": "jones",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 3,
+                    "name": "daniel",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 4,
+                    "name": "rakesh",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 5,
+                    "name": "Sharan",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 6,
+                    "name": "revanth",
+                    "Experience": "",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "role": "QA/Tester",
+            "candidates": [
+                {
+                    "id": 1,
+                    "name": "ramya",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 2,
+                    "name": "geetha",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 3,
+                    "name": "hemanth",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 4,
+                    "name": "vamsi",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 5,
+                    "name": "srikanth",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 6,
+                    "name": "bharat",
+                    "Experience": "",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "role": "Mobile Developers",
+            "candidates": [
+                {
+                    "id": 1,
+                    "name": "navneeth",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 2,
+                    "name": "anil",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 3,
+                    "name": "avinash",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 4,
+                    "name": "karan",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 5,
+                    "name": "seema",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 6,
+                    "name": "sushma",
+                    "Experience": "",
+                    "img": ""
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "role": "Devops",
+            "candidates": [
+                {
+                    "id": 1,
+                    "name": "harita",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 2,
+                    "name": "samuel",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 3,
+                    "name": "sunny",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 4,
+                    "name": "john",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 5,
+                    "name": "michael",
+                    "Experience": "",
+                    "img": ""
+                },
+                {
+                    "id": 6,
+                    "name": "rohit",
+                    "Experience": "",
+                    "img": ""
+                }
+            ]
+        }
+    ]
+}
