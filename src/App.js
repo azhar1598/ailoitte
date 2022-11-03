@@ -13,7 +13,7 @@ function App({ dispatchGetCategories }) {
   }, []);
 
   return (
-    <div className="app">
+    <div className="app mb-36">
       <Header />
       <div className="flex mt-12">
         <Categories />

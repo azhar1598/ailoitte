@@ -2,6 +2,22 @@
   padding: 0px;
   margin: 0px
 }
+.css-1lqfl60-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+  min-height: 40px !important;
+  height:40px;
+  box-shadow: none !important;
+
+}
+.css-1lqfl60-MuiButtonBase-root-MuiAccordionSummary-root{
+  min-height: 40px !important;
+  height:40px;
+  margin-top: 20px !important;
+/* box-shadow: 0 0 0 0 !important; */
+border-bottom: none !important;
+box-shadow: none !important;
+
+}
+
 
 
 @tailwind base;

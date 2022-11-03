@@ -5,12 +5,20 @@ import * as mui from "@mui/material";
 import styled from "styled-components";
 import { connect } from "react-redux";
 import { setMembers } from "../../actions";
+import ControlledAccordions from "./ControlledAccordions";
+import Accordion from '@mui/material/Accordion';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import AccordionSummary from '@mui/material/AccordionSummary';
+
 
 function Card({ stateCategories, dispatchSetMembers, stateMembers }) {
   const [showDropdown, setShowDropdown] = useState(false);
   const [id, setId] = useState();
   const [renderData, setRenderData] = useState();
   const [dynamic, setDynamic] = useState();
+
+  const [expanded, setExpanded] = React.useState(false);
+
 
   const Button = styled.button`
     background-color: ${({ bg }) => (bg ? "gray" : "#545467")};
@@ -61,32 +69,62 @@ function Card({ stateCategories, dispatchSetMembers, stateMembers }) {
       }
     });
 
-    console.log("resulttexttt", text);
-
     return text;
   };
 
+  
+
+  const handleChange = (panel) => (event, isExpanded) => {
+    setExpanded(isExpanded ? panel : false);
+  };
+
+  const CustomExpandIcon = () => {
+    return (
+      <mui.Box
+        sx={{
+          ".Mui-expanded & > .collapsIconWrapper": {
+            display: "none",
+          },
+          ".expandIconWrapper": {
+            display: "none",
+          },
+          ".Mui-expanded & > .expandIconWrapper": {
+            display: "block",
+          },
+        }}
+      >
+        <div className="expandIconWrapper">
+          {" "}
+          <icon.RemoveCircleOutlineRounded style={{ color: "white" }} />
+        </div>
+        <div className="collapsIconWrapper">
+          <icon.AddCircleOutlineRounded style={{ color: "white" }} />
+        </div>
+      </mui.Box>
+    );
+  };
+
+  
+
   return (
-    <div className=" mr-2  ">
+    <div className=" mr-2 ">
+    
       {stateCategories?.data?.map((item, index) => (
-        <Box>
-          <p
-            className={`bg-[#0169FE]  mt-6 ${
-              showDropdown ? `rounded-t-lg` : `rounded-lg`
-            }  drop-shadow-lg text-white py-1 px-2 cursor-pointer`}
-            onClick={() => handleClick(item.id)}
+      <div className="rounded-full mt-6 bg-[#0169FE]">
+            <Accordion
+          sx={{ background: "#0169FE" }}
+          onChange={handleChange(item.id)}
+        >
+          <AccordionSummary
+            sx={{ color: "white" ,}}
+            expandIcon={<CustomExpandIcon />}
           >
             {item.role}
-            {id == item.id && showDropdown ? (
-              <icon.RemoveCircleOutlineRounded className="float-right" />
-            ) : (
-              <icon.AddCircleOutlineRounded className="float-right" />
-            )}
-          </p>
-          {showDropdown &&
-            id == item.id &&
+          </AccordionSummary>
+          {
+
             item.candidates.map((i) => (
-              <div className="flex items-center justify-between pt-2 pb-2 border-slate-200 border-x-2 border-b-2 px-2">
+              <div className="flex items-center justify-between pt-2 pb-2 border-slate-200 border-x-2 border-b-2 px-2 bg-white">
                 <div className="flex items-center">
                   <mui.Avatar alt="img here" src={i.img} />
                   <div className="px-2 ">
@@ -106,8 +144,11 @@ function Card({ stateCategories, dispatchSetMembers, stateMembers }) {
                 </Button>
               </div>
             ))}
-        </Box>
+        </Accordion>
+      </div>
       ))}
+      {/* <ControlledAccordions stateCategories={stateCategories}/> */}
+ 
     </div>
   );
 }
